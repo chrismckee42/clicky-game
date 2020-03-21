@@ -26,7 +26,7 @@ class Container extends Component {
 
     state = {
         clicked: clicked,
-        topScore: 1,
+        topScore: 0,
         score: 0,
         cards: () => images.map((image, i) => <Card img={image} key={i} onClick={() => this.clickClick(i)} />),
     }
@@ -80,7 +80,7 @@ class Container extends Component {
 
                 <div className="container">
                         <Jumbotron />
-                    <div className="container">
+                    <div className="container wrapper">
                         {
                             this.state.cards()
                         }
