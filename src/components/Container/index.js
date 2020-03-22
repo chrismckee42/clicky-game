@@ -50,7 +50,7 @@ class Container extends Component {
             })
         } else {
             this.setState({
-                topScore: (this.state.topScore < this.state.score ? this.state.score : this.state.topScore),
+                topScore: (this.state.topScore < this.state.score + 1 ? this.state.score + 1 : this.state.topScore),
                 score: this.state.score + 1,
                 clicked: this.state.clicked.map((elem,i) => (id === i ? !elem : elem))
             })
