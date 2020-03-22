@@ -14,6 +14,7 @@ import morty from "../../assets/morty.png"
 import mr from "../../assets/mr.png"
 import rick from "../../assets/rick.png"
 import summer from "../../assets/summer.png"
+import "./style.css";
 
 const images = [beth, birdperson, evilMorty, gianthead, goldenford, jerry, jessica, meeseeks, morty, mr, rick, summer]
 
